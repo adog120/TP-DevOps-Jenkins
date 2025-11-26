@@ -1,11 +1,11 @@
 pipeline {
   environment {
-    calculator_image = 'Adoganis/calculator'
+    calculator_image = 'adoganis/calculator'
     
-    sum_image = 'Adoganis/sum'
-    sub_image = 'Adoganis/sub'
-    mul_image = 'Adoganis/mul'
-    div_image = 'Adoganis/div'
+    sum_image = 'adoganis/sum'
+    sub_image = 'adoganis/sub'
+    mul_image = 'adoganis/mul'
+    div_image = 'adoganis/div'
     sum_link = 'https://github.com/AnonymousWhizzer/Sum_service.git'
     sub_link = 'https://github.com/AnonymousWhizzer/Sub_service.git'
     mul_link = 'https://github.com/AnonymousWhizzer/Mul_service.git'
