@@ -12,10 +12,10 @@ pipeline {
     div_link = 'https://github.com/AnonymousWhizzer/Div_service.git'
     calculator_link = 'https://github.com/AnonymousWhizzer/Calculator_service.git'
     dockerImage = ""
-    registryCredential = 'repo_login'
+    registryCredential = 'our_repo_devops'
   
     //provide this line with one of your worker floating IP
-    build_arg="--build-arg HIS_IP='<worker_floating_ip>' ."
+    build_arg="--build-arg HIS_IP='192.168.37.3' ."
   }
 
   agent any
